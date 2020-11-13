@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    max-width: 960px;
+    max-height: 1000px;
+    background-color: seagreen;
+}
+
+.image {
+    border: 1px solid red;
+    float: left;
+    width: 32%;
+    height: 32%;;
+    background-color: yellow;
+    margin: 5px 4px;
+}
+.left {
+    max-width: 25%;
+    background-color: violet;
+}
+.right {
+    max-width: 75%;
+    background-color: blue;
+
+}
+.left, .right {
+    float: left;
+    max-eight: 100%;
+}

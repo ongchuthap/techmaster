@@ -1,0 +1,134 @@
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+.main,
+.feature,
+header,
+.footer {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+hr {
+  border-top: 0.5px gray
+  box-shadow: 0px 2px 4px 0px rbga (0, 0, 0, 4);
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* body part */
+
+body {
+  background-color: seashell;
+}
+/* CSS header */
+header {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.menu-link {
+  text-decoration: none;
+  color: white;
+}
+.menu-text {
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
+}
+.logo {
+  width: 70px;
+
+}
+.logo-image {
+  vertical-align: middle;
+
+}
+
+/* CSS main */
+.main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.product {
+  background-color: seashell;
+}
+.product-row {
+  text-align: center;
+}
+.product-row-item {
+  border-radius: 20px;
+  display: inline-block;
+  width: 23%;
+  margin: 7px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0 ,0 ,0.2);
+  background-color: white;
+}
+.product-name {
+  margin-top: 7px;
+}
+.product-price {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+.product-row-image img {
+  vertical-align: middle;
+  border-radius: 20px 20px 0px 0px;
+}
+/* CSS div row */
+
+/* CSS feature */
+
+.feature {
+  background-color: seashell;
+}
+.feature-info {
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  font-family: tahoma;
+  font-weight: 300;
+  padding: 20px;
+  margin: 5px;
+}
+.feature-text-detail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.quality {
+  max-width: 40%;
+}
+
+/* CSS footer */
+
+.footer {
+  max-width: 100%;
+  background-color: black;
+}
+.contact {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+}
+footer div h3 {
+  line-height: 50px;
+}
+footer {
+  vertical-align: center;
+  color: white;
+  line-height: 25px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="base.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="wholepage">
+      <div class="sidebar">
+        <div class="sidebar__top">
+          <div class="sidebar__logo">
+            <img class="sidebar__image" src="logo.webp" alt="logo" />
+          </div>
+        </div>
+        <div class="sidebar__bottom">
+          <ul class="sidebar__menu">
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">Dashboard</a>
+            </li>
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">Charts</a>
+            </li>
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">Tables</a>
+            </li>
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">Forms</a>
+            </li>
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">Calendar</a>
+            </li>
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">Maps</a>
+            </li>
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">Pages</a>
+            </li>
+            <li class="sidebar__menu-list">
+              <a href="#" class="sidebar__menu-link">UI Elements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content__top">
+          <div class="content__search">
+            <div class="content__search-text">
+              <input
+                class="content__search-text content__search-text--input"
+                type="text"
+                placeholder="Search for datas & reports..."
+              />
+            </div>
+            <div class="content__search-icon">
+              <button class="content__search--button" type="submit">
+                <i class="button-submit fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="content__tool">
+            <div class="content__noti">
+              <i class="content-noti-icon fas fa-comment-alt"></i>
+
+              <i class="content-noti-icon fas fa-envelope"></i>
+
+              <i class="content-noti-icon fas fa-bell"></i>
+            </div>
+            <div class="content__contact">
+              <div class="content__avatar">
+                <img
+                  class="content__avatar-image"
+                  src="avatar-01.jpg"
+                  alt="avatar"
+                />
+              </div>
+              <div class="content__name">
+                <a class="content__name-text" href="#">
+                  <select name="name" id="name">
+                    <option value="name">John Doe</option>
+                  </select>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__bottom">
+          <div class="content__bottom-container">
+            <div class="content__bottom-header">
+              <div class="content__bottom-overview">
+                <h2 class="overview">Overview</h2>
+              </div>
+              <div class="content__bottom-btn">
+                <button class="content__bottom-button">+ Add item</button>
+              </div>
+            </div>
+            <div class="content__bottom-border">
+              <div class="border"></div>
+              <div class="border"></div>
+              <div class="border"></div>
+              <div class="border"></div>
+              <div class="border-big"></div>
+              <div class="border-big"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

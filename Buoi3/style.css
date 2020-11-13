@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 100%;
+    margin: auto;
+    background-color: pink;
+}
+.item {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+/* header */
+.logo {
+    width: 100px;
+}
+.logo, .menu_group, .menu_item {
+    display: inline-block;
+}
+.menu_item {
+    margin-left: 10px;
+}
+.menu_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header {
+    display: flex;
+
+    align-items: center;
+}

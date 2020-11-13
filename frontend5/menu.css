@@ -1,0 +1,43 @@
+.menu-link {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+/* menu nho */
+
+.sub-menu {
+    display: none;
+    list-style: none;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.sub-link {
+    text-decoration: none;
+    color:black;
+}
+
+/* menu 2 nho */
+
+.sub2-menu {
+    width: 80px;
+    list-style: none;
+    padding: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 100%;
+}

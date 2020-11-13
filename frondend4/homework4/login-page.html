@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login-page-style.css" />
+    <title>Login page</title>
+  </head>
+  <body>
+    <main>
+      <div class="create-account">
+        <div class="container">
+          <div class="top">
+            <div class="title">
+              <h1 class="title-text">Đăng ký</h1>
+            </div>
+            <div class="describle">
+              <p class="describle-text">Nhanh chóng và dễ dàng.</p>
+            </div>
+          </div>
+          <div class="crossline">
+            <hr />
+          </div>
+          <div class="input">
+            <div class="username">
+              <div class="lastname">
+                <input class="lastname-text" type="username" placeholder="Họ" />
+              </div>
+              <div class="firstname">
+                <input
+                  class="firstname-text"
+                  type="username"
+                  placeholder="Tên"
+                />
+              </div>
+            </div>
+            <div class="email">
+              <input type="email" placeholder="Số di động hoặc email" />
+            </div>
+            <div class="password">
+              <input type="password" placeholder="Mật khẩu mới" />
+            </div>
+          </div>
+          <div class="birthday">
+            <div class="birthday-text">
+              <p class="birthday-text-p">Ngày sinh</p>
+            </div>
+            <div class="select">
+              <select name="day" id="day">
+                <option value="27">27</option>
+                <option value="28">28</option>
+              </select>
+              <select name="month" id="month">
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select name="year" id="year">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+              </select>
+            </div>
+          </div>
+          <div class="gender-container">
+            <div class="gender-text">
+              <p class="gender-text-p">Giới tính</p>
+            </div>
+            <div class="radio">
+              <div class="female-input">
+                <label for="female">
+                  Nữ
+                  <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                  />
+                </label>
+              </div>
+              <div class="male-input">
+                <label for="male"
+                  >Nam<input type="radio" id="male" name="gender" value="male"
+                /></label>
+              </div>
+              <div class="other-input">
+                <label for="other"
+                  >Tuỳ chỉnh<input
+                    type="radio"
+                    id="other"
+                    name="gender"
+                    value="other"
+                /></label>
+              </div>
+            </div>
+          </div>
+          <div class="detail">
+            <p>
+              Bằng cách nhấp vào Đăng ký, bạn đồng ý với
+              <a href="#">Điều khoản, Chính sách dữ liệu</a> và
+              <a href="#">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận
+              được thông báo của chúng tôi qua SMS và huỷ nhận bất kỳ lúc nào.
+            </p>
+          </div>
+          <div class="button">
+            <div class="button-container">
+              <button class="button-submit" type="submit">Đăng ký</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h1 style="color: black">
+          Trang này thì tự làm, có copy attribute button "Đăng ký"
+        </h1>
+      </div>
+    </footer>
+  </body>
+</html>

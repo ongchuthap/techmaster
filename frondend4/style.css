@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+table, tr, th, td {
+    border: 1px solid red;
+}
+th, td {
+    width: 100px;
+    padding: 10px;
+}
+tbody tr:nth-child(2n+1) {
+    background-color: pink;
+}
+
+input {
+    width: 100px;
+    height: 10px;
+    border: 1px solid red;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+input:valid {
+    border: 3px solid green;
+}
+
+input:not(:valid) {
+    border: 3px solid red;
+}
+
+input::placeholder {
+    font-size: 10px;
+    font-style: italic;
+}
+input:placeholder-shown {
+    background-color: yellow;
+}
+input:checked {
+    font-size: 30px;
+}
