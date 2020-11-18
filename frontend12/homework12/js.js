@@ -144,7 +144,7 @@ if (year % 400 == 0) {
 
 let char = prompt("Nhập ký tự: ", "");
 
-if (a <= char <= Z) {
+if ('A' <= char && char <= 'z') {
   alert(`${char} thuộc trong bảng alphabe`);
 } else {
   alert(`${char} không có trong bảng alphabe`);
