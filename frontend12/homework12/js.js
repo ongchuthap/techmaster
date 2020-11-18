@@ -164,7 +164,7 @@ if ((char = "a" || char = "e" || char = "o" || char = "i" || char = "u")) {
 
 let char = prompt("Nhập ký tự: ", "");
 
-if (A <= char <= Z) {
+if ('A' <= char && char <= 'Z') {
   alert(`${char} là chữ in hoa`);
 } else {
   alert(`${char} là chữ in thường`);
