@@ -162,6 +162,14 @@ if ((char = "a" || char = "e" || char = "o" || char = "i" || char = "u")) {
 
 //  Viết chương trình cho phép nhập 1 ký tự, kiểm tra ký tự đó là chữ thường hay chữ hoa
 
+let char = prompt("Nhập ký tự: ", "");
+
+if (A <= char <= Z) {
+  alert(`${char} là chữ in hoa`);
+} else {
+  alert(`${char} là chữ in thường`);
+}
+
 // Viết chương trình cho phép nhập 1 số là ngày trong tuần, in ra thứ tương ứng
 
 let day = +prompt("Nhập ngày trong tuần: ", "");
