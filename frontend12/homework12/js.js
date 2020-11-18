@@ -152,6 +152,14 @@ if (a <= char <= Z) {
 
 //  Viết chương trình cho phép nhập 1 ký tự, kiểm tra ký tự đó là nguyên âm hay phụ âm
 
+let char = prompt("Nhập ký tự: ", "");
+
+if ((char = "a" || char = "e" || char = "o" || char = "i" || char = "u")) {
+  alert(`${char} là nguyên âm`);
+} else {
+  alert(`${char} là phụ âm`);
+}
+
 //  Viết chương trình cho phép nhập 1 ký tự, kiểm tra ký tự đó là chữ thường hay chữ hoa
 
 // Viết chương trình cho phép nhập 1 số là ngày trong tuần, in ra thứ tương ứng
