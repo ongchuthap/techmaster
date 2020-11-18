@@ -156,7 +156,78 @@ if (a <= char <= Z) {
 
 // Viết chương trình cho phép nhập 1 số là ngày trong tuần, in ra thứ tương ứng
 
+let day = +prompt("Nhập ngày trong tuần: ", "");
+
+switch (day) {
+  case 1:
+    alert(`ngày ${day} là thứ hai`);
+    break;
+  case 2:
+    alert(`ngày ${day} là thứ ba`);
+    break;
+  case 3:
+    alert(`ngày ${day} là thứ tư`);
+    break;
+  case 4:
+    alert(`ngày ${day} là thứ năm`);
+    break;
+  case 5:
+    alert(`ngày ${day} là thứ sáu`);
+    break;
+  case 6:
+    alert(`ngày ${day} là thứ bảy`);
+    break;
+  case 7:
+    alert(`ngày ${day} là chủ nhật`);
+    break;
+  default:
+    alert("không hợp lệ");
+}
+
 // Viết chương trình cho phép nhập 1 tháng, in ra số ngày trong tháng
+
+let month = +prompt("Nhập tháng: ", "");
+
+switch (month) {
+  case 1:
+    alert(`Tháng ${month} có 31 ngày`);
+    break;
+  case 2:
+    alert(`Tháng ${month} có 29 hoặc 28 ngày`);
+    break;
+  case 3:
+    alert(`Tháng ${month} có 31 ngày`);
+    break;
+  case 4:
+    alert(`Tháng ${month} có 30 ngày`);
+    break;
+  case 5:
+    alert(`Tháng ${month} có 31 ngày`);
+    break;
+  case 6:
+    alert(`Tháng ${month} có 30 ngày`);
+    break;
+  case 7:
+    alert(`Tháng ${month} có 31 ngày`);
+    break;
+  case 8:
+    alert(`Tháng ${month} có 31 ngày`);
+    break;
+  case 9:
+    alert(`Tháng ${month} có 30 ngày`);
+    break;
+  case 10:
+    alert(`Tháng ${month} có 31 ngày`);
+    break;
+  case 11:
+    alert(`Tháng ${month} có 30 ngày`);
+    break;
+  case 12:
+    alert(`Tháng ${month} có 31 ngày`);
+    break;
+  default:
+    alert("Không hợp lệ");
+}
 
 // Viết chương trình cho phép nhập 3 số a b c, in ra nghiệm phương trình bậc 2 tương ứng
 
