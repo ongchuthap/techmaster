@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">
+        <div class="predict">
+          <h1 id="quote">Happy calculator</h1>
+          <img id="img" src="tenor.gif" width="100%" />
+        </div>
+        <div id="result"></div>
+      </div>
+      <div class="number">
+        <div class="button" id="seven" onclick="showMath('seven'); play()">
+          <h1>7</h1>
+        </div>
+        <div class="button" id="eight" onclick="showMath('eight'); play()">
+          <h1>8</h1>
+        </div>
+        <div class="button" id="nine" onclick="showMath('nine'); play()">
+          <h1>9</h1>
+        </div>
+        <div class="button" id="divide" onclick="showMath('divide'); play()">
+          <h1>÷</h1>
+        </div>
+        <div class="button" id="four" onclick="showMath('four'); play()">
+          <h1>4</h1>
+        </div>
+        <div class="button" id="five" onclick="showMath('five'); play()">
+          <h1>5</h1>
+        </div>
+        <div class="button" id="six" onclick="showMath('six'); play()">
+          <h1>6</h1>
+        </div>
+        <div class="button" id="multi" onclick="showMath('multi'); play()">
+          <h1>x</h1>
+        </div>
+        <div class="button" id="one" onclick="showMath('one'); play()">
+          <h1>1</h1>
+        </div>
+        <div class="button" id="two" onclick="showMath('two'); play()">
+          <h1>2</h1>
+        </div>
+        <div class="button" id="three" onclick="showMath('three'); play()">
+          <h1>3</h1>
+        </div>
+        <div class="button" id="minus" onclick="showMath('minus'); play()">
+          <h1>−</h1>
+        </div>
+        <div class="button" id="zero" onclick="showMath('zero'); play()">
+          <h1>0</h1>
+        </div>
+        <div class="button" id="ac" onclick="del(); play()">
+          <h1>C</h1>
+        </div>
+        <div
+          class="button"
+          id="equal"
+          onclick="showResult(); bomb(); displayPicture()"
+        >
+          <h1>=</h1>
+        </div>
+        <div class="button" id="plus" onclick="showMath('plus'); play()">
+          <h1>+</h1>
+        </div>
+        <audio id="scream" src="sound-number.m4a"></audio>
+        <audio id="bomb" src="bombsound.m4a"></audio>
+      </div>
+    </div>
+  </body>
+</html>
