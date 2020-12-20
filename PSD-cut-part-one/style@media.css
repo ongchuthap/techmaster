@@ -88,3 +88,12 @@
    
 
 }
+
+@media screen and (max-width: 414px) {
+  .input {
+    display: flex;
+  }
+  .input-email {
+    max-width: 100%;
+  }
+}

@@ -134,7 +134,7 @@
 .input-email {
   border: none;
   background-color: #f0f0f0;
-  max-width: 330px;
+  width: 330px;
 }
 .btn-icon {
   background-color: #f0f0f0;
