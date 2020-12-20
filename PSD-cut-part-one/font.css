@@ -1,0 +1,39 @@
+@font-face {
+    src: url(fonts/Inconsolata/Inconsolata-Regular.ttf);
+    font-family: Inconsolata;
+}
+@font-face {
+    src: url(fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+    font-family: Playfair_Display
+}
+@font-face {
+    src: url(fonts/Ubuntu/Ubuntu-Light.ttf);
+    font-family: Ubuntu
+}
+.font-logo {
+    font-family: Inconsolata;
+    
+}
+.font-title {
+    font-family: Playfair_Display;
+    font-size: 1.875rem;
+    color: #626262
+}
+.font-text {
+    font-family: Playfair_Display;
+    font-size: 0.875rem;
+    color: #626262;
+    line-height: 180%;
+}
+.font-category {
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    color: #b4ad9e
+}
+
+.footer-text {
+    font-family: Playfair_Display;
+    color: #000000;
+    font-size: 0.875rem;
+
+}

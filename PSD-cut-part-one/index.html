@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style@media.css" />
+    <link rel="stylesheet" href="font.css" />
+    <script src="script.js"></script>
+    <title>Minimo</title>
+  </head>
+  <body>
+    <!-------------------- header -------------------->
+    <div class="header">
+      <div class="header__nav">
+        <div class="nav__logo">
+          <h5 class="logo__text font-logo">minimø</h5>
+        </div>
+        <div class="nav__item" id="menubar">
+          <ul class="item__list">
+            <li class="item__info">
+              <a href="#" class="item__link font-display">lifestyle</a>
+            </li>
+            <li class="item__info">
+              <a href="#" class="item__link font-display">photodiary</a>
+            </li>
+            <li class="item__info">
+              <a href="#" class="item__link font-display">music</a>
+            </li>
+            <li class="item__info">
+              <a href="#" class="item__link font-display">travel</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__menu" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+      <div class="header-pic">
+        <img src="banner.jpg" class="banner-pic" alt="banner" />
+      </div>
+    </div>
+    <!------------ end of header ---------------->
+    <div class="banner-info">
+      <h5 class="banner-category font-category">photodiary</h5>
+      <h3 class="banner-title font-title">The perfect weekend getaway</h3>
+      <p class="banner-text font-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+        est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore
+        magnam aliquam quaerat voluptatem.
+      </p>
+      <h5 class="banner-cmt font-category">leave a comment</h5>
+    </div>
+
+    <!---------------- end of banner info ---------------------->
+
+    <div class="card-group">
+      <div class="card">
+        <img src="cd-1.jpg" class="card-img-top" alt="pic" />
+        <div class="card-body">
+          <h5 class="card-category font-category">lifestyle</h5>
+          <h3 class="card-title font-title">More than just a music festival</h3>
+          <p class="card-text font-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="cd-2.jpg" class="card-img-top" alt="pic" />
+        <div class="card-body">
+          <h5 class="card-category font-category">lifestyle</h5>
+          <h3 class="card-title font-title">Life tastes better with coffee</h3>
+          <p class="card-text font-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="cd-3.jpg" class="card-img-top" alt="pic" />
+        <div class="card-body">
+          <h5 class="card-category font-category">lifestyle</h5>
+          <h3 class="card-title font-title">American dream</h3>
+          <p class="card-text font-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="cd-4.jpg" class="card-img-top" alt="pic" />
+        <div class="card-body">
+          <h5 class="card-category font-category">lifestyle</h5>
+          <h3 class="card-title font-title">A day exploring the Alps</h3>
+          <p class="card-text font-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------- end of card--------------------- -->
+
+    <div class="btn-container">
+      <h3 class="btn-describle font-title" style="color: #333333">
+        Sign up for our newsletter!
+      </h3>
+      <div class="input">
+        <input
+          class="input-email font-text"
+          type="email"
+          placeholder="Enter a valid email address"
+        />
+        <button class="btn-icon">
+          <img src="send.svg" class="btn-icon-img" alt="send" />
+        </button>
+      </div>
+      <div class="btn-line"></div>
+    </div>
+
+    <!--------------------- end of btn-container ------------------>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="cd-5.jpg" class="card-img-top" alt="pic" />
+        <div class="card-body">
+          <h5 class="card-category font-category">lifestyle</h5>
+          <h3 class="card-title font-title">Top 10 song for running</h3>
+          <p class="card-text font-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="cd-6.jpg" class="card-img-top" alt="pic" />
+        <div class="card-body">
+          <h5 class="card-category font-category">lifestyle</h5>
+          <h3 class="card-title font-title">Cold winter days</h3>
+          <p class="card-text font-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-loadmore">
+      <button class="loadmore font-title" style="font-size: 1.25rem">
+        Load more
+      </button>
+    </div>
+    <!------------------------- end of main content --------------------------->
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <p class="footer-text footer-text-left">Terms and conditions</p>
+          <p class="footer-text footer-text-left">Privacy</p>
+        </div>
+
+        <div class="footer-social">
+          <p class="footer-text footer-text-right">Follow</p>
+          <img class="social-icon" src="social.svg" alt="social" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
