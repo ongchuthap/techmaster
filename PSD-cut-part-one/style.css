@@ -207,3 +207,10 @@
 .social-icon {
   background-color: #f0f0f0;
 }
+
+.link-change {
+  text-decoration: none;
+}
+.link-change:hover {
+  color: black;
+}
