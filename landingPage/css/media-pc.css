@@ -1,0 +1,26 @@
+@media screen and (min-width: 70.625em) {
+/* header */
+.header, .header-nav, .feature, .interface-container, .footer, .community-container {
+    width: 1100px;
+}
+/* end of header------------------------------------------------------------------ */
+.detail-container {
+  
+  margin-right: 0px;
+}
+
+
+
+}
+@media screen and (min-width: 77.5em) {
+#big-interface-img {
+    opacity: 1;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+.caro-2:last-child {
+  display: block;
+} 
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <link rel="stylesheet" href="./slick/slick-theme.css" />
+
+    <style>
+        .caro-1 {
+            background-color: white;
+        }
+      .person-card {
+        
+        height: 211px;
+        background: black;
+        border-radius: 10px;
+        margin-right: 20px;
+        
+      }
+      .person-conatainer {
+          
+          
+      }
+     
+      .card-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 14px;
+        width: 300px;
+      }
+      .card-person {
+        display: flex;
+        align-items: center;
+      }
+      .person-name {
+        font-family: SourceSansPro-semiBold;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #ffffff;
+        margin-left: 10px;
+      }
+      .card-body {
+        width: 300px;
+        height: 130px;
+        position: relative;
+        
+      }
+      .card-text {
+        font-family: SourceSansPro-regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #ffffff;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+
+      .card-date-text {
+        font-family: SourceSansPro-regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #ffffff;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+      }
+
+      .community-big {
+        display: none;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="caro">
+      <div class="person-card">
+          <div class="person-container">
+            <div class="card-header">
+          <div class="card-person">
+            <img
+              class="person-avatar"
+              src="./img/community/one-patrick.png"
+              alt="avatar"
+            />
+            <p class="person-name">Patrick Martin</p>
+          </div>
+          <div class="card-social">
+            <img
+              class="card-social-icon"
+              src="./img/twitter.svg"
+              alt="twitter"
+            />
+          </div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            ShowTrackr is a real gem! I started using it a couple months ago and
+            it completely changed the way how I watch TV shows. I can only
+            recommend it!
+          </p>
+          <p class="card-date-text">Jan 18, 2018</p>
+          </div>
+       
+      </div>
+
+    </div>
+    <div class="person-card">
+          <div class="person-container">
+            <div class="card-header">
+          <div class="card-person">
+            <img
+              class="person-avatar"
+              src="./img/community/one-patrick.png"
+              alt="avatar"
+            />
+            <p class="person-name">Patrick Martin</p>
+          </div>
+          <div class="card-social">
+            <img
+              class="card-social-icon"
+              src="./img/twitter.svg"
+              alt="twitter"
+            />
+          </div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            ShowTrackr is a real gem! I started using it a couple months ago and
+            it completely changed the way how I watch TV shows. I can only
+            recommend it!
+          </p>
+          <p class="card-date-text">Jan 18, 2018</p>
+          </div>
+       
+      </div>
+
+    </div>
+</div>
+
+    <script src="./slick/jquery.min.js"></script>
+    <script src="./slick/slick.js"></script>
+
+    <script>
+      $(".caro").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        variableWidth: true,
+        // vertical: true,
+        // verticalSwipe: true,
+        arrows: false,
+       
+      });
+    </script>
+  </body>
+</html>

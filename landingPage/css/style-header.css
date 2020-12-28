@@ -1,0 +1,226 @@
+/* header */
+
+/* --------------header-nav---------------- */
+.header-container {
+  width: 100%;
+  background-color: #fff;
+}
+.header {
+  width: calc(100% - 2em);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+.header-nav {
+  width: calc(100% - 2em);
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+.nav-logo a:hover {
+  opacity: 80%;
+}
+.logo-text {
+  font-family: SourceSansPro-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.125em;
+  line-height: 23px;
+  text-align: center;
+}
+.logo-text-black {
+  color: #000000;
+}
+.logo-text-blue {
+  color: #540cfa;
+}
+/* -------------------------- */
+.nav-menu {
+  display: none;
+}
+.menu-list {
+  list-style: none;
+}
+.menu-item {
+  display: inline-block;
+}
+.menu-link {
+  text-decoration: none;
+  font-family: SourceSansPro-regular;
+  font-size: 0.875em;
+  color: #000;
+  margin-right: 3.75em;
+}
+.menu-link:hover {
+  opacity: 80%;
+}
+/* ----------------------------- */
+.nav-login {
+  text-decoration: none;
+  font-family: SourceSansPro-bold;
+  font-size: 0.875em ;
+  line-height: 18px;
+  color: #000;
+  margin-right: 30px;
+  display: none;
+}
+.nav-login:hover {
+  opacity: 0.8;
+}
+.btn-getstarted {
+  width: 6.375em;
+  height: 32px;
+  font-family: SourceSansPro-semiBold;
+  font-style: normal;
+  font-size: 0.875em;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #540cfa;
+  border: none;
+  border-radius: 4px;
+}
+.btn-getstarted:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+.btn-getstarted:focus {
+  outline: none;
+}
+/* -------------end of header-nav------------------ */
+/* -------------header-info----------------- */
+.header-info {
+  margin-bottom: 30px;
+}
+.info-title {
+  font-family: SourceSansPro-black;
+  font-style: normal;
+  font-size: 2.625em;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+.info-text {
+  font-style: normal;
+  font-family: SourceSansPro-light;
+  font-size: 1.125em;
+  line-height: 27px;
+  color: #000000;
+}
+
+/* -------------end of header-info----------------- */
+/* -------------header-register----------------- */
+.header-register {
+  display: flex;
+  justify-content: space-between;
+  
+  height: 53px;
+  border: 0.5px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  padding-right: 3px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+.register-input-email {
+  background: #ffffff;
+  padding-left: 15px;
+  padding-top: 8px;
+  width: 100%;
+}
+
+.input-email-title {
+  font-family: SourceSansPro-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #540cfa;
+  text-align: left;
+}
+.input-email-text {
+  font-family: SourceSansPro-regular;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  width: calc(100% - 15px);
+}
+.input-email-text:focus {
+  outline: none;
+}
+.btn-starttracking {
+  font-family: SourceSansPro-bold;
+  width: 141px;
+  height: 100%;
+  background-color: #540cfa;
+  border: none;
+  color: #ffffff;
+}
+.btn-starttracking:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+.btn-starttracking:focus {
+  outline: none;
+}
+
+/*---------------end of header-register---------------- */
+
+/*------------------- header-compatible----------------------- */
+.header-compatible {
+  margin-bottom: 48px;
+  max-width: 421px;
+}
+.compatible-text {
+  font-family: SourceSansPro-semiBold;
+  font-size: 0.625em;
+  line-height: 13px;
+  letter-spacing: 0.125em;
+  opacity: 30%;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+.compatible-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.compatible-logo-img {
+  opacity: 0.3;
+}
+
+/* --------------end of header-compatible---------------- */
+
+/* background img */
+.body-background {
+  position: relative;
+  z-index: -1;
+}
+.small-bg-left {
+  position: absolute;
+  left: 0;
+  top: 975px;
+}
+.small-bg-right {
+  position: absolute;
+  right: 0;
+  top: 495px;
+}
+.big-bg-left, .big-bg-right {
+  display: none;
+}
+.header-mockup {
+  text-align: center;
+}
+.big-header-mockup {
+  display: none;
+}
+/* end of background img */
+/* end of header */
